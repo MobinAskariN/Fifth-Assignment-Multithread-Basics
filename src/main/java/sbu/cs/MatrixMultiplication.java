@@ -74,7 +74,7 @@ public class MatrixMultiplication {
 
             tempMatrixProduct = result;
         }
-    }
+    }// sample comment
 
     public static List<List<Integer>> ParallelizeMatMul(List<List<Integer>> matrix_A, List<List<Integer>> matrix_B) {
         BlockMultiplier b1 = new BlockMultiplier(1, matrix_A, matrix_B);
